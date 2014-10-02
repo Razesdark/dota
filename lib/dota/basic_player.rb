@@ -47,5 +47,6 @@ module Dota
     # @return [String] Holds internal name
     def internal_name
       Constants::Heroes::INTERNAL_NAMES[hero_id]
+    end
   end
 end
